@@ -11,5 +11,13 @@
         "program": "${workspaceFolder}/src/example/example.ts",
         "outFiles": ["${workspaceFolder}/dist/**/*.js"],
         "preLaunchTask": "tsc: build - tsconfig.json",
+    }, {
+        "name": "Debug Jest Tests",
+        "type": "node",
+        "request": "launch",
+        "runtimeArgs": ["--inspect-brk", "${workspaceRoot}/node_modules/.bin/jest", "--runInBand", "--coverage", "false"],
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "port": 9229
     }]
 }

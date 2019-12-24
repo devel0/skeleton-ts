@@ -28,3 +28,4 @@ code .
 - manually test `yarn test`
 - automatically test when code changes through jest vscode extension `code --install-extension orta.vscode-jest` ( see in the toolbar lower left )
 - show coverage gutters on source files `code --install-extension ryanluker.vscode-coverage-gutters` ( click on watch )
+- to debug test from vscode CTRL+SHIFT+D and select "Debug Jest Tests" from DEBUG AND RUN select
