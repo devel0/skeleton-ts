@@ -36,3 +36,7 @@ code .
 - place a breakpoint into index.ts ( `F9` )
 
 - hit `F5` to start debugger
+
+## config for express
+
+to be able use `import express from 'express'` you have to tune `tsconfig.json` commenting out `verbatimModuleSyntax`
